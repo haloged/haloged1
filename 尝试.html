@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo001.ico" type="image/x-icon">
+    <title>尝试</title>
+</head>
+<body>
+    <h1>下面是一些尝试</h1>
+    <p>现在是北京时间</p>
+    <p id="demo"></p>
+<script>
+var myVar=setInterval(function(){myTimer()},1000);
+function myTimer(){
+	var d=new Date();
+	var t=d.toLocaleTimeString();
+	document.getElementById("demo").innerHTML=t;
+}
+</script>
+</br>
+    <p>这是一段文字。</p>
+    <hr>
+    <p>这是一段文字。</p>
+    <hr>
+    <p>这是最后一段文字。</p>
+    <hr>
+</br>
+<!-- 这是一个注释 -->
+    <p>在记事本中打开,你会看到上面有一些注释。</p> 
+</br>
+    <b>这是加粗后的字。</b>
+</br>
+    <i>这个是斜的字。</i>
+</br>
+    <code>电脑自动输出字体。</code>
+</br>
+     这是<sub>往下字体</sub>和<sup>往上字体</sup>
+</br>
+</br>
+<p>下面是一个表格</p>
+</br>
+</br>
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+    </tr>
+</table>
+</br>
+</br>
+    <P>下面是一个排行</P>
+    <ol>
+    <li>假装第一名</li>
+    <li>假装第二名</li>
+    <li>假装第三名</li>
+    </ol>
+    <p>......</p>
+    <ol start="50">
+    <li>假装第五十名</li>
+    <li>假装第五十一名</li>
+    <li>假装最后一名</li>
+    </ol>
+</br>
+</br>
+    <p>下面请输入用户名和密码</p>
+</br>
+<form action="">
+    用户名: <input type="text" name="user"><br>
+    密码 : <input type="password" name="password">
+</form>
+<button type="button" onclick="myFunction()">登录</button>
+<!-- 哈哈哈哈哈,被我骗了吧！！！ -->
+<p>查看源代码有惊喜！</p>
+</br>
+</br>
+<p>下面请选择</p>
+<form action="">
+    <input type="radio" name="sex" value="male">1<br>
+    <input type="radio" name="sex" value="female">2
+    </form>
+</br>
+</br>
+<script>
+    document.write("Hello World!")
+    </script> 
+    <noscript>抱歉，你的浏览器不支持 JavaScript![doge]</noscript>
+    <p>
+        JavaScript 能够直接写入 HTML 输出流中：
+        </p>
+        <script>
+        document.write("<h1>这是一个标题</h1>");
+        document.write("<p>这是一个段落。</p>");
+        </script>
+        <p>
+        您只能在 HTML 输出流中使用 <strong>document.write</strong>。
+        如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+        </p>
+</br>
+<p id="demo">
+    JavaScript 可以触发事件，就像按钮点击。</p>
+    <script>
+    function myFunction()
+    {
+        document.getElementById("demo").innerHTML="Hello JavaScript!";
+    }
+    </script>
+    <button type="button" onclick="myFunction()">点我</button>
+</br>
+</br>
+<ul>
+    <li>1</li>
+    <li>2</li>
+</ul>
+</br>
+</br>
+<h5>后面没有了</h5><small>才怪</small>
+</br>
+</br>
+<p>点击按钮查看输入的对话框。</p>
+<button onclick="myFunction()">点我</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var person=prompt("请输入你的名字","Harry Potter");
+	if (person!=null && person!=""){
+	    x="你好 " + person + "! 今天感觉如何?";
+	    document.getElementById("demo").innerHTML=x;
+	}
+}
+</script>
+</body>
+<div>
+    <p>点击按钮，显示确认框。</p>
+<button onclick="myFunction()">点我</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var r=confirm("按下按钮!");
+	if (r==true){
+		x="你按下了\"确定\"按钮!";
+	}
+	else{
+		x="你按下了\"取消\"按钮!";
+	}
+	document.getElementById("demo").innerHTML=x;
+}
+
+</script>
+</div>
+<div>
+    <p>只有最上面的上面的文字才会变化哦！！！</p>
+</div>
+</br>
+</br>
+<div><h1>JavaScript 验证输入</h1>
+
+    <p>请输入 1 到 10 之间的数字：</p>
+    
+    <input id="numb">
+    
+    <button type="button" onclick="myFunction()">提交</button>
+    
+    <p id="demo"></p>
+    
+    <script>
+    function myFunction() {
+        var x, text;
+    
+        // 获取 id="numb" 的值
+        x = document.getElementById("numb").value;
+    
+        // 如果输入的值 x 不是数字或者小于 1 或者大于 10，则提示错误 Not a Number or less than one or greater than 10
+        if (isNaN(x) || x < 1 || x > 10) {
+            text = "输入错误";
+        } else {
+            text = "输入正确";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+    </script>
+    </div>
+</br>
+</br>
+<body>
+    <script>
+        function validateForm(){
+            var x=document.forms["myForm"]["email"].value;
+            var atpos=x.indexOf("@");
+            var dotpos=x.lastIndexOf(".");
+            if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length){
+                alert("不是一个有效的 e-mail 地址");
+                  return false;
+            }
+        }
+        </script>
+        </head>
+        <body>
+            
+        <form name="myForm" action="E-mail.html" onsubmit="return validateForm();" method="post">
+        Email: <input type="text" name="email">
+        <input type="submit" value="提交">
+        </form>
+</body>
+</br>
+</br>
+<body>
+
+    <p>点击按钮计算 x 的值.</p>
+    <p>y=5</p>
+    </br>
+    <p>z=2</p>
+    <br>
+    <p>x=y+z</p>
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+function myFunction()
+{
+	y=5;
+	z=2;
+	x=y+z;
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+</body>
+<div>
+<h1>这次是真没了</h1>
+<h2>我也累了。。。</h2>
+</br>
+</br>
+<b>总行数:307行</b>
+</br>
+<b>耗时:2天</b>
+</br>
+<div>
+    <p style="text-align:center"><a href="https://www.bilibili.com/blackboard/privacy-pc.html?spm_id_from=333.1007.0.0" target="iframe_a" target="_blank">隐私协议</a></p>
+    <p style="text-align:center"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=000023232342523" target="iframe_a" target="_blank">湘公网备000023232342523号</a></p
+</div>
+</body>
+</html>
