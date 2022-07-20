@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>主页动效</title>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="txt">张睿轩的<br /><span>个人主页</span></div>
+      <div class="menu">
+        <div class="cross">
+          <span class="dash1"></span>
+          <span class="dash2"></span>
+        </div>
+        <div class="options">
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="https://space.bilibili.com/518055250">B站频道</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <script>
+      let cross = document.querySelector('.cross')
+      cross.addEventListener('click', () => {
+        cross.classList.toggle('open')
+      })
+    </script>
+  </body>
+</html>
