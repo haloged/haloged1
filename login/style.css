@@ -9,7 +9,7 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("./photo-1542332213-31f87348057f.avif") fixed no-repeat;  
+  background: url("./background.jpeg") fixed no-repeat;  
   background-size: cover;
 }
 
