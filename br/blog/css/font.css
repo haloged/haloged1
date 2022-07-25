@@ -1,0 +1,26 @@
+/* 定义我门自己的字体，字体库可以去googl font下载 */
+/* 统一字体可以让网页有一个整体的风格 */
+@font-face {
+    font-family:Abel ;
+    src: url('/fonts/Abel/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family:Anton ;
+    src: url('/fonts/Anton/Anton-Regular.ttf');
+}
+
+@font-face {
+    font-family:Josefin ;
+    src: url('/fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family:Lexend ;
+    src: url('/fonts/Lexend_Deca/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+    font-family:Livvic ;
+    src: url('/fonts/Livvic/Livvic-Regular.ttf');
+}
