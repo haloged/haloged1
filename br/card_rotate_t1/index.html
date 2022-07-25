@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 300px;
+        transform: translate(-50%,-50%);
+        -webkit-perspective: 1500px;
+        -moz-perspective: 1500px;
+    }
+    .box{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 300px;
+        transition: all 0.5s;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .box p{
+        text-align: center;
+        line-height: 300px;
+        color: white;
+    }
+    .b1{
+        background: skyblue;
+    }
+    .b2{
+        background: aqua;
+        transform: rotateY(-180deg);
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box b1">
+            <p>你好吗？</p>
+        </div>
+        <div class="box b2">
+            <p>我很好</p>
+        </div>
+    </div>
+</body> 
+<script>
+    var b1=document.querySelector('.b1');
+var bb1=document.querySelector('.box.b1 p');
+var b2=document.querySelector('.b2');
+//节流
+var mxc=true
+b1.onclick=function () {
+	if(!mxc){
+		return;
+	}
+	mxc=false;
+    setTimeout(function () {
+    	mxc=true;
+    	b1.style.transform="rotateY(180deg)";
+    	b2.style.transform="rotateY(0deg)";
+    },320);
+};
+b2.onclick=function (){
+    b2.style.transform="rotateY(-180deg)";
+    b1.style.transform="rotateY(0deg)";
+}
+</script>
+</html>
