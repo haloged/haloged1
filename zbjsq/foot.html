@@ -1,0 +1,105 @@
+<!--
+    
+    MIT License
+
+Copyright (c) 2022 DanKe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-->
+
+<script> 
+    function createIframe() {
+    var i = document.createElement("iframe");
+        frameborder="no";
+        framespacing="0";
+        i.scrolling="no";
+        i.allow="autoplay;encrypted-media";
+        i.allowfullscreen="true";
+        document.getElementById("div-that-holds-the-iframe").appendChild(i);
+    };
+     //兼容性处理
+     if (window.addEventListener) window.addEventListener("load", createIframe, false);
+     else if (window.attachEvent) window.attachEvent("onload", createIframe);
+     else window.onload = createIframe;
+</script>
+
+
+<script>
+    function change(){    
+            var roomid = document.getElementsByName("zhubo")[0].value
+            document.getElementById("iframe").src='https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=' +roomid+"&quality=0"
+            document.getElementById("now").value="当前直播间号："+ roomid
+            if(document.getElementsByName("zhubo")[0].value == "null")
+            {
+                document.getElementById("now").value="您未选择直播间"
+                $("#close").hide();
+            }
+            else
+            {
+                $("#close").show();
+            }
+    }
+    function close(){
+        document.getElementById("iframe").src=""
+        document.getElementById("now").value="您未选择直播间"
+        $("#close").hide();
+    }
+</script>
+
+<body style="background-color:rgba(0, 0, 0, 0);"></body>
+<div>
+    <iframe id="iframe" style="width: 475px;height: 270px;" src=""></iframe>
+    <div>
+        <select name="zhubo" id="zhubo" onchange="change()">
+            <!--
+                这里是蛋壳爱看的虚拟主播，你可以根据你的爱好自行修改
+                格式：
+                <option value="直播间号">主播名称</option>
+            -->
+            <option value="null">请选择直播间</option>
+            <option value="567610">迪哥闯世界</option>
+            <option value="929670">脏小豆</option>
+            <option value="10195173">康文昌</option>
+            <option value="23820777">雨葵rs</option>
+            <option value="1024">站长</option>
+            <option value="935841">李志映画</option>
+            <option value="4863731">地图君official</option>
+            <option value="23519922">巫山云玩家</option>
+            <option value="544853">籽岷</option>
+            <option value="173551">影视飓风</option>
+            <option value="9395707">榛葉nami</option>
+            <option value="544843">极客湾Geekerwan</option>
+            <option value="3394945">陈睿</option>
+            <option value="44857">科技美学</option>
+            <option value="442492">米米Mxmimi</option>
+            <option value="12183225">偏牧</option>
+            <option value="22709803">苏星河牛通</option>
+            <option value="81435">黑山大叔</option>
+            <option value="22955787">DreamsMom</option>
+            <option value="5867219">老师好我叫何同学</option>
+            <option value="21852">老番茄</option>
+            <option value="13786821">联想拯救者官方</option>
+            <option value="88188">飞社长</option>
+            <option value="1">哔哩哔哩直播</option>
+        </select>
+        <input type="text" id="now" value="您未选择直播间" readonly="true"> 
+
+    </div>
+</div>
