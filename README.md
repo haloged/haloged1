@@ -2,5 +2,5 @@
 部署网站用
 请勿删除
 网址：https://haloged.github.io/haloged1/
-'''python
+```python
 print("Hallo,World!")
