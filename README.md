@@ -4,3 +4,4 @@
 网址：https://haloged.github.io/haloged1/
 
 [English](./md/README-EN.md "English")
+[日本語](./md/README-JP.md "日本語")
