@@ -1,5 +1,4 @@
 # 张睿轩的个人网站 
-![](https://img.shields.io/github/gist/stars/haloged1-star?style=social)
 
 部署网站用
 请勿删除
