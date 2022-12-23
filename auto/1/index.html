@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>圣诞快乐</title>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:900" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./resource/style.css">
+  <audio src="./resource/Lonely Christmas.mp3" autoplay="autoplay" loop="loop" id="bgAudio"></audio>
+</head>
+
+<body>
+  <!-- 小彩蛋 -->
+  春风再美也比不过你的笑,没见过你的人不会明了
+  <!-- 小彩蛋 -->
+  <script src="./resource/script.js"></script>
+  <script src="./resource/jquery.js"></script>
+  <script src="./resource/jq.snow.js"></script>
+  <script>
+    $(function () {
+      $.fn.snow({
+        minSize: 5, //雪花的最小尺寸
+        maxSize: 40, //雪花的最大尺寸
+        newOn: 260 //雪花出现的频率 这个数值越小雪花越多
+      });
+    });
+    $(window).click(function() {
+            $('audio ')[0].play();
+        });
+  </script>
+</body>
+
+</html>
