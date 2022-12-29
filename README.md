@@ -5,7 +5,7 @@
   <img scr="https://img.shields.io/github/directory-file-count/haloged/haloged1">
   <img scr="https://img.shields.io/github/languages/code-size/haloged/haloged1">
   <img scr="https://img.shields.io/github/issues/haloged/haloged1">
- </dev>
+</dev>
 
 部署网站用
 请勿删除
