@@ -1,0 +1,526 @@
+<root><head><waddleversion>0</waddleversion><dataversion>0</dataversion><title></title></head><body><blocks><xml xmlns="https://developers.google.com/blockly/xml"><block type="utils_import" id="ypz7#Yf{Diq#(QJ1uwQh" x="81" y="-159"><next><block type="axios_import" id="GP~]q7Cc}Y)oG(_Zjxr%"><next><block type="crypto_import" id="B`gpj5PB[v?%?Lme!4Bn"><next><block type="permissions_getall" id="IY/(0^02zU)r1V4{3Xos"><field name="GETTYPE">THIS</field><next><block type="ivw_defTypes" id="yzfnbyzfnbyzfnbyzfnb"><field name="type">COCO_WNGJX</field><field name="icon">https://static.codemao.cn/appcraft/extension-widgets/production/xh-file-tool.svg</field><field name="title">CoCo万能工具箱</field><field name="version">1.0.0</field><field name="isGlobalWidget">true</field><next><block type="ivw_defWidget" id="mathcalculusnbnbnbnb"><statement name="constructor"><block type="widget_widgetlog" id="b,xZ!c--]!kIf)nY$Kn1"><value name="value"><block type="text" id="toTxeQ=*YpiCw`a5[dB0"><field name="TEXT">作者：谨慎的熔岩龙Ef_m</field></block></value><next><block type="widget_widgetlog" id="I-_##?H@Zy2WVDs$Wyg%"><value name="value"><block type="text" id="70h4ti~vSsW}/B4UTl/;"><field name="TEXT">作者主页：https://shequ.codemao.cn/user/493919874</field></block></value><next><block type="widget_widgetlog" id="Cd/YS_j_~F%vspOM2!#E"><value name="value"><block type="text" id="3wf)a(MtZ0BIle#CENjB"><field name="TEXT">作者B站主页：https://space.bilibili.com/518055250</field></block></value><next><block type="js_console_log" id="FxwLW*P[S#f9B:/1]U3x"><value name="TEXT"><block type="text" id=".~:yu,7{6](VIWy[Ge)Y"><field name="TEXT">欢迎使用文件工具箱！</field></block></value><next><block type="js_console_log" id="DSFe[qDd;:qj/qk*XJWm"><value name="TEXT"><block type="text" id="Wp}#S`!RzO_h]jAYb#0b"><field name="TEXT">作者：谨慎的熔岩龙Ef_m</field></block></value><next><block type="js_console_log" id=",2,JDr,TH;NNQb6Eruo/"><value name="TEXT"><block type="text" id="ws8tlU7fq!1T%!nRdQHQ"><field name="TEXT">作者主页：https://shequ.codemao.cn/user/493919874</field></block></value><next><block type="js_console_log" id="r$E5-)@AVi,8/c?$d^S("><value name="TEXT"><block type="text" id="*%aVABI_0E2Q%f,smooY"><field name="TEXT">作者B站主页：https://space.bilibili.com/518055250</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="ivw_addMethod" id="=A;-6+Hp6iNx.WQ~7sY("><field name="label">获取窗口</field><field name="key">hqck</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="QVjoak(:G[.ogQdAcHvI"><value name="value"><block type="permissions_window" id="x]H}F)=1UDCs,#N*-c/;"></block></value></block></statement><value name="config"><block type="ivw_config" id="q[{{x#=.5aFrkc+b5,U-"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="}jkhzv;=oo{AA,dtc#):"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="$!y-u?a$^%U3G+b[nsZJ"><field name="label">获取文档</field><field name="key">hqwd</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="?%L!-t*pq|V!_!!pGt`T"><value name="value"><block type="permissions_document" id="ET`//^MUgGK^WFVpF1Hi"></block></value></block></statement><value name="config"><block type="ivw_config" id="ndtA1i.uuCQAL#.d;S(s"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="1uZo*GT1IT$9Q,o+]KpB"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="{e^{QoFfj%z?o_+[.B[E"><field name="label">获取浏览器</field><field name="key">hqllq</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="EWqq(W%Hjxt5/MTXL2^+"><value name="value"><block type="permissions_navigator" id="?`=99RqvS]$+R;wh,oSA"></block></value></block></statement><value name="config"><block type="ivw_config" id="W(;k;y+4ZZ8ThGS%2-W:"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="ziUz/fc;QQPwYO07w02}"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="JC%mA8Pw())P*55dS]w{"><field name="label">获取历史记录</field><field name="key">hqlsjl</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="hxz?_m*6#p4:y*Q!*z;m"><value name="value"><block type="permissions_history" id="/5/fg`LAWsLBFBTkizEs"></block></value></block></statement><value name="config"><block type="ivw_config" id="6vXPz69iWrON.^A(Ou[z"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="*LjlV1qjg7+s@*eI=}xB"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="e/i%FfCP{RR$+e#K8;w["><field name="label">获取屏幕</field><field name="key">hqpmkd_gd</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addDropdownParams" id="Ss#,Molc.EVz111SUJhL"><field name="label"></field><field name="key">xlk_kd_gd_pm</field><statement name="dropdownItems"><block type="ivw_addDropdownItem" id="C1prsV*]oXe.il2LlY~X"><field name="label">宽度</field><next><block type="ivw_addDropdownItem" id="zSTFcDR6`.J{#=n}^lUw"><field name="label">高度</field></block></next></block></statement></block></statement><statement name="code"><block type="controls_if" id=":VX[jOWDAGnD9x#!AkQ{"><mutation elseif="1"></mutation><value name="IF0"><block type="logic_compare" id="jhLR#E=[}%MwglhVeuBm"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="IG(d_|_/He@U4pCB=z-0"><field name="KEY">xlk_kd_gd_pm</field></block></value><value name="B"><block type="text" id="xX-:G{bDU70e8Lt9.b%5"><field name="TEXT">宽度</field></block></value></block></value><statement name="DO0"><block type="ivw_methodReturn" id="ekBs5eA;*/:[@zNr,KKl"><value name="value"><block type="js_window_screen" id="}zMH:7n6fx#sJ(d1%f@t"><field name="TYPE">screen.width</field></block></value></block></statement><value name="IF1"><block type="logic_compare" id="9W2MLQK$CTSxIE{}-.KF"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="@!RO(@Wfowe,=qARtw)U"><field name="KEY">xlk_kd_gd_pm</field></block></value><value name="B"><block type="text" id=")deg[9@0,8t#Mzhc.ko0"><field name="TEXT">高度</field></block></value></block></value><statement name="DO1"><block type="ivw_methodReturn" id="*1Q;m:.B?LleltXVB^{L"><value name="value"><block type="js_window_screen" id="p:{CU3/tM!6=YU`feF:]"><field name="TYPE">screen.height</field></block></value></block></statement></block></statement><value name="config"><block type="ivw_config" id="QZf^c-2?t4gXghu]EN*,"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="l6GxR7$v_+_HAeX`n$m|"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="{[2q~=3#6[$paagQ{VyM"><field name="label">获取屏幕可用</field><field name="key">hqpmkd_gd_ky</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addDropdownParams" id="lkj@B7]Ip_3|UmwZQ(Kg"><field name="label"></field><field name="key">xlk_kd_gd_pm_ky</field><statement name="dropdownItems"><block type="ivw_addDropdownItem" id="DC|5#(f1`F~FXuHeT4{f"><field name="label">宽度</field><next><block type="ivw_addDropdownItem" id="yB@]XQg[QzG`}D};k3hk"><field name="label">高度</field></block></next></block></statement></block></statement><statement name="code"><block type="controls_if" id="N-Sf:M5~D+hl/}(,`,7S"><mutation elseif="1"></mutation><value name="IF0"><block type="logic_compare" id="@FXr?pY#xzT,{49`vxbO"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="+6Z!UopSKDF94tnP0`q6"><field name="KEY">xlk_kd_gd_pm_ky</field></block></value><value name="B"><block type="text" id="jLQ~2A=s^1/(v1G3JK]n"><field name="TEXT">宽度</field></block></value></block></value><statement name="DO0"><block type="ivw_methodReturn" id="j:y@vBZ88a+Tzoo}{jF)"><value name="value"><block type="js_window_avail_screen" id="W^ZCX-zpp8871g,7Yj_~"><field name="TYPE">screen.availWidth</field></block></value></block></statement><value name="IF1"><block type="logic_compare" id="Ls@B7D}nT}f!Aksh+w@3"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="xZ%Bz2Q4{7MA3{3w|$G8"><field name="KEY">xlk_kd_gd_pm_ky</field></block></value><value name="B"><block type="text" id="96q@D+A-ki5Iy?O~VM5x"><field name="TEXT">高度</field></block></value></block></value><statement name="DO1"><block type="ivw_methodReturn" id="Z=)^81OPRrbtqxoF/x,s"><value name="value"><block type="js_window_avail_screen" id="*h5_gT[e!Y`)o6_I^.d("><field name="TYPE">screen.availHeight</field></block></value></block></statement></block></statement><value name="config"><block type="ivw_config" id="M6{~bb!$Jd$JE*dZFEhb"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="FIob(cXW7s=3gJo}d/yH"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="cD6%pd2kv,]DiZt3kh-O"><field name="label">获取屏幕色深</field><field name="key">hqpmss</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="=a.!=zttN@~M83+VT#3!"><value name="value"><block type="js_window_depth" id="+ZAFmLEbH]d_:(].D=`9"></block></value></block></statement><value name="config"><block type="ivw_config" id="%IaGb3_Sp[*eQ%@r*|e?"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="QB]owg@LV8||mE@xnS%o"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="qFnJBurWVW]p1uzcJ?PN"><field name="label">获取屏幕像素深度</field><field name="key">hqpmxssd</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="Ra(UZ7-1~wrbg@DD{s.V"><value name="value"><block type="js_window_pixeldepth" id="1J(ygpf0OyI^KUN{~Y|W"></block></value></block></statement><value name="config"><block type="ivw_config" id="kVkPLC/`JO,2^%Kl19oV"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="$POpqh{;hq,gbqZx:Z0W"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="!1svbDf@U9rnkB4OnqU/"><field name="label">判断是否有网络</field><field name="key">pdsfywl</field><field name="valueType">'boolean'</field><statement name="code"><block type="controls_if" id=":I{dBsH,|}@pe]Z=ebGc"><mutation else="1"></mutation><value name="IF0"><block type="js_navigator_online" id="wk.*;4Wtl^(x*@$XY-1y"></block></value><statement name="DO0"><block type="ivw_methodReturn" id="=WV+Y?p+yz_cx(!PH/Jq"><value name="value"><block type="logic_boolean" id="N7wqBE8|JI!$=%F6P+vm"><field name="BOOL">TRUE</field></block></value></block></statement><statement name="ELSE"><block type="ivw_methodReturn" id="0qTl//jqIuWg{rct_^2r"><value name="value"><block type="logic_boolean" id="0=Nw*YG%s1Yeku;s/LTe"><field name="BOOL">FALSE</field></block></value></block></statement></block></statement><value name="config"><block type="ivw_config" id="1cGTsQJ5^?7N6++52?ln"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="(`v#$|H@;8![Jxcm11ih"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="C%r`QocvwP^_9K+s@.3X"><field name="label">获取浏览器语言</field><field name="key">get_llqyy</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="ti6zJe1x8u$zy-[T}ZO8"><value name="value"><block type="js_navigator_language" id="4nvc3eO2k^b)g#.povcG"></block></value></block></statement><value name="config"><block type="ivw_config" id="(*nM;|6xgZ90UMICd!#s"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="IVUW|OJ%Hx/dG9w5yrxJ"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="4m.NYa]rqY^c.eN}fXQq"><field name="label">获取当前操作系统</field><field name="key">get_sys</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="ivw_methodReturn" id="cH[~(b8d01sii_yup[-V"><value name="value"><block type="js_navigator_platform" id="O.P{Q[-.N[g_*2V1KAF*"></block></value></block></statement><value name="config"><block type="ivw_config" id="3qp%}d]Ico(?#PSH!tDY"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="gUt)UG}BT3TmK?{h3F@e"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="*LvD-eH/39zRi/GGR$lw"><field name="label">获取当前界面</field><field name="key">get_url</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addDropdownParams" id="2R8[]LS#WQeUZ-m?u:G/"><field name="label"></field><field name="key">xlq_get_url</field><statement name="dropdownItems"><block type="ivw_addDropdownItem" id="BtYPEG}ijC[LAME*W+*H"><field name="label">URL</field><next><block type="ivw_addDropdownItem" id="Cf[}doXJheA~ovj{T)12"><field name="label">URL路径名</field><next><block type="ivw_addDropdownItem" id="#zDMDjHM/QVaA2Y$L0iL"><field name="label">主机域名</field><next><block type="ivw_addDropdownItem" id="u`1vHSD|V:GN4i@YZcB_"><field name="label">主机端口</field></block></next></block></next></block></next></block></statement></block></statement><statement name="code"><block type="controls_if" id="v+dpIoLI1=mtRVKCF-#n"><mutation elseif="3"></mutation><value name="IF0"><block type="logic_compare" id="j#[2U|*3w:!kvM[kpvYy"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="l=b-pk=L*=ZATR+FwDYp"><field name="KEY">xlq_get_url</field></block></value><value name="B"><block type="text" id="_Xzir/p{#1.v,YpEY/!A"><field name="TEXT">URL</field></block></value></block></value><statement name="DO0"><block type="ivw_methodReturn" id="?b,ey9GJk,KhQ678uA4Q"><value name="value"><block type="js_location" id="?]j-9EIc[;biIzmR;ijf"><field name="NAME">href</field></block></value></block></statement><value name="IF1"><block type="logic_compare" id="b0tZ#p4Z?*MxxepMOVpo"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="2BXQlRO]!R[KJ~+`xm?3"><field name="KEY">xlq_get_url</field></block></value><value name="B"><block type="text" id="Cx$YZ6(iDA5RR_Wie-a}"><field name="TEXT">URL路径名</field></block></value></block></value><statement name="DO1"><block type="ivw_methodReturn" id="|3K4Rk/WUuKn|N_;f:f]"><value name="value"><block type="js_location" id="zZEIMF3-O=eK0/+B)u(|"><field name="NAME">pathname</field></block></value></block></statement><value name="IF2"><block type="logic_compare" id="YtVmj)+ZV64|=zh$}uQV"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="%/oY)T}3.m]LRg]+g$@c"><field name="KEY">xlq_get_url</field></block></value><value name="B"><block type="text" id="HlC1,#m9hjgC*#?G},xO"><field name="TEXT">主机域名</field></block></value></block></value><statement name="DO2"><block type="ivw_methodReturn" id="TCo6)DVR?F$TBs9+rvVI"><value name="value"><block type="js_location" id=")~sduyr.HyE?P%NiZC93"><field name="NAME">hostname</field></block></value></block></statement><value name="IF3"><block type="logic_compare" id="f4:!W+YhuI|T[)`iIbd:"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="IHv(3a+!8giF4GVb8A)f"><field name="KEY">xlq_get_url</field></block></value><value name="B"><block type="text" id="qt:Or:f._Ytk]?VmUSTh"><field name="TEXT">主机端口</field></block></value></block></value><statement name="DO3"><block type="ivw_methodReturn" id="dfrUSvK2oG8drbQy;c]8"><value name="value"><block type="js_location" id="EN1O?GfiZ{uyFSA?}N|H"><field name="NAME">port</field></block></value></block></statement></block></statement><value name="config"><block type="ivw_config" id="]4b{%%R2-vUN.q6^7]:g"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="[wrYyaz~k;r8u_(U;%nl"><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="7mK{,{7P9{|m]=EWC[lY"><field name="label">获取当前</field><field name="key">get_sj</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addDropdownParams" id="+*egLQaGN]n$Y[v?2Wte"><field name="label"></field><field name="key">xlk_get_sj</field><statement name="dropdownItems"><block type="ivw_addDropdownItem" id="HG5v+[d%(#4/Ohe^,pt|"><field name="label">时间戳</field><next><block type="ivw_addDropdownItem" id="kAwb#kQ%+k=`V`O;TF1;"><field name="label">年份</field><next><block type="ivw_addDropdownItem" id="FB[o?.,I_pVs]]:5]Z54"><field name="label">月份</field><next><block type="ivw_addDropdownItem" id="re[y[!H|)Y_ZA`5Eqs%a"><field name="label">日</field><next><block type="ivw_addDropdownItem" id="h@KuP*6Ri}HCXt+TTIn."><field name="label">小时</field><next><block type="ivw_addDropdownItem" id=")hSpCcF~tGH6d%mdA-b@"><field name="label">分钟</field><next><block type="ivw_addDropdownItem" id="4Y0R+V,N_]G(EZW@Wt}#"><field name="label">秒数</field><next><block type="ivw_addDropdownItem" id="q6jo7p:/i7ZDW+nbqGy8"><field name="label">毫秒数</field><next><block type="ivw_addDropdownItem" id="^8@:;#[N4N{3a})wd0Or"><field name="label">星期</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement><statement name="code"><block type="controls_if" id="~,;30lHA9^^L]0;?Phu*"><mutation elseif="8"></mutation><value name="IF0"><block type="logic_compare" id="k3%?k0.k%x[Qg3^1xw?Z"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="U1xX4K__~iSyo6ay5^e*"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="poN?JHDZ23o#t~o/(#/x"><field name="TEXT">时间戳</field></block></value></block></value><statement name="DO0"><block type="ivw_methodReturn" id="Gy6OOCWKt.S88GFB|.=y"><value name="value"><block type="js_time" id="gdnmM$Vqrl[]oMSWE7-J"><field name="TYPE">new Date().getTime()</field></block></value></block></statement><value name="IF1"><block type="logic_compare" id="tZ-3@~8x_#~wBf:oB729"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="6Kf|l7.[m[1=!yXYwRjJ"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="-OVL.#Kt[Ytu4BUJ$AQ3"><field name="TEXT">年份</field></block></value></block></value><statement name="DO1"><block type="ivw_methodReturn" id="BBf8.UOfaoe|TcGtMkxF"><value name="value"><block type="js_time" id="t$A2k`?edODs6f}YvtE}"><field name="TYPE">new Date().getFullYear()</field></block></value></block></statement><value name="IF2"><block type="logic_compare" id="#Z;1}@t|sr)[uk:ZggHw"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="7qY}~{OxNVsPYGcEQeS)"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="wlIq@+NhE:{UodCmL0Ao"><field name="TEXT">月份</field></block></value></block></value><statement name="DO2"><block type="ivw_methodReturn" id="OcMlzc)W`oj.y:]]JR)z"><value name="value"><block type="js_time" id="MPKV^`WY/Nqx.oM:a1+q"><field name="TYPE">new Date().getMonth()</field></block></value></block></statement><value name="IF3"><block type="logic_compare" id="g4mSS)~8.FAO[U*Y3VRh"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="@HN@h``]WSCccoF/c6Jj"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="!9lyB_3Coq:pU4U75Isx"><field name="TEXT">日</field></block></value></block></value><statement name="DO3"><block type="ivw_methodReturn" id=":[P:J2O]!vY859QEHNX#"><value name="value"><block type="js_time" id="0tGsqyCx3}C9)lSyw=(2"><field name="TYPE">new Date().getDate()</field></block></value></block></statement><value name="IF4"><block type="logic_compare" id="j[ZZ$~_,z8.tyL_0EMlK"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="yNQ}6{O|`WeWkR^])w;z"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="mN*(r|Y=c4-3zpCcTJ!{"><field name="TEXT">小时</field></block></value></block></value><statement name="DO4"><block type="ivw_methodReturn" id="xdrJC-bf(svdns{W.!6U"><value name="value"><block type="js_time" id="SG54;zv^PZ1tiQ|BEMpc"><field name="TYPE">new Date().getHours()</field></block></value></block></statement><value name="IF5"><block type="logic_compare" id="fdh)r+E,QPHK.VxReUfs"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="~sXx5c!UBVNbj49IX=ew"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="qPRWdvJEXV;3d`MYPKfL"><field name="TEXT">分钟</field></block></value></block></value><statement name="DO5"><block type="ivw_methodReturn" id="~My0w^%`EN`j`4uia_`H"><value name="value"><block type="js_time" id="R+X^yq1~AA4t=5zT#zGi"><field name="TYPE">new Date().getMinutes()</field></block></value></block></statement><value name="IF6"><block type="logic_compare" id="uUSwX?*sPc3(^b^jE^5`"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="0DBNr{k*WzRN#Hgg!)Pm"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id=":8:f/CHiVE2s`eS3p:HD"><field name="TEXT">秒数</field></block></value></block></value><statement name="DO6"><block type="ivw_methodReturn" id="6Q=T(FfF6NU#l)pnto^s"><value name="value"><block type="js_time" id="e)H010DBhX]bAoyr?cJO"><field name="TYPE">new Date().getSeconds()</field></block></value></block></statement><value name="IF7"><block type="logic_compare" id="5cQ6kH|X5H^`{^$d$.A;"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id=":KG}roz`r.OKF^#^/B/4"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="#(Ts@H=F/!s{rAhplrt{"><field name="TEXT">毫秒数</field></block></value></block></value><statement name="DO7"><block type="ivw_methodReturn" id="Dlog8@CC5q!#D~j=mbdy"><value name="value"><block type="js_time" id="*wWo~FJ*txWV;k=]WA6Q"><field name="TYPE">new Date().getMilliseconds()</field></block></value></block></statement><value name="IF8"><block type="logic_compare" id="EqV$9@mNB#N[eAo3_,,2"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="]`,G4.C7*7gUaZSp(rx2"><field name="KEY">xlk_get_sj</field></block></value><value name="B"><block type="text" id="!jgPbA60G$JW%cb7(gWO"><field name="TEXT">星期</field></block></value></block></value><statement name="DO8"><block type="ivw_methodReturn" id="`j9OR)%GPB|U87y`Q2nn"><value name="value"><block type="js_time" id="8b#Lu$trX[;=)XdVm|`/"><field name="TYPE">new Date().getDay()</field></block></value></block></statement></block></statement><value name="config"><block type="ivw_config" id="t^;}?_PgZQ];uWVKYW-/"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">50</field><value name="color"><shadow type="colour_picker" id="XKYrB:eu+dC}A_dfkmX("><field name="COLOUR">#ffbb55</field></shadow></value></block></value><next><block type="ivw_addMethod" id="cvtK.l=SP2Y:9W.L8vDF"><field name="label">生成哈希MD5字符串</field><field name="key">md5_zfc</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addParams" id="G(6`p%KIc|f3ir3m7_u^"><field name="label">文本</field><field name="key">sq_hx_md5_wbk</field><field name="valueType">'string'</field><value name="defaultValue"><block type="text" id="w41}r=S$oubF/:i6^A!-"><field name="TEXT">万能工具箱</field></block></value></block></statement><statement name="code"><block type="ivw_methodReturn" id="tTc7LiEmw%[HI7Kn8U:u"><value name="value"><block type="crypto_md5_s" id="S/#M_wV|{iT1Qe8n,g8R"><value name="STR"><block type="ivw_getparam" id=",eLy=^Ua[bVu?r8Y?q[d"><field name="KEY">sq_hx_md5_wbk</field></block></value></block></value></block></statement><value name="config"><block type="ivw_config" id="I6$`k]/KwpzM$kelDaGA"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="${[C.g3?+m7y9@34!iGN"><field name="COLOUR">#ff6600</field></shadow></value></block></value><next><block type="ivw_addMethod" id="?$#d^)KXXqrd61m@Zb^i"><field name="label">生成哈希SHA-1字符串</field><field name="key">sha_1</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addParams" id="hPZ{93*JL8fYE6Rz;bsa"><field name="label">文本</field><field name="key">sq_hx_sha_1_wbk</field><field name="valueType">'string'</field><value name="defaultValue"><block type="text" id="J=_bdC:r8uO}VEKE{!I{"><field name="TEXT">万能工具箱</field></block></value></block></statement><statement name="code"><block type="ivw_methodReturn" id=":L;?XcFK0P,,84-~XeJe"><value name="value"><block type="crypto_sha1_s" id="3daB)!hc?:ppGzr_!oGr"><value name="STR"><block type="ivw_getparam" id=",-C?jemzB_VDYNQjAjYy"><field name="KEY">sq_hx_sha_1_wbk</field></block></value></block></value></block></statement><value name="config"><block type="ivw_config" id="`G^~Zg!}%k){yEZ7,*M$"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="g]3]g7i#aHOV,dT%.huN"><field name="COLOUR">#ff6600</field></shadow></value></block></value><next><block type="ivw_addMethod" id="yX~1MW,i#OJV277f4*/z"><field name="label">生成哈希SHA-265字符串</field><field name="key">sha_265</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addParams" id="k9oJNIPFbVNam##cB,9O"><field name="label">文本</field><field name="key">sq_hx_sha_265_wbk</field><field name="valueType">'string'</field><value name="defaultValue"><block type="text" id="p_:*-o+I!?2`7JhLui%x"><field name="TEXT">万能工具箱</field></block></value></block></statement><statement name="code"><block type="ivw_methodReturn" id="e=hJ7D}x3DuY3|:0V1qL"><value name="value"><block type="crypto_sha256_s" id="PY[Q2ifgG~3xex/P7:kU"><value name="STR"><block type="ivw_getparam" id="X2tbv]E}1=^yWq3l30wj"><field name="KEY">sq_hx_sha_265_wbk</field></block></value></block></value></block></statement><value name="config"><block type="ivw_config" id="kV+7B,sa[6.qn~Z*fn:%"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">50</field><value name="color"><shadow type="colour_picker" id="MbWDPIEbRVc}|,LUX%Ef"><field name="COLOUR">#ff6600</field></shadow></value></block></value><next><block type="ivw_addMethod" id="E[||rVxo]vRmN,n3Yht]"><field name="label">短网站</field><field name="key">dwz</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addDropdownParams" id="C]|E7oBRt_iS-V}!6|-d"><field name="label"></field><field name="key">dwz_xl</field><statement name="dropdownItems"><block type="ivw_addDropdownItem" id="+0x@nA5n0$Srl3c*=O@-"><field name="label">生成</field><next><block type="ivw_addDropdownItem" id="tLlrs,26K]KP$+vYmrJo"><field name="label">解析</field></block></next></block></statement><next><block type="ivw_addDropdownParams" id="!nfa5=o0O3s4Sg7[e4sM"><field name="label">缩短接口</field><field name="key">dwz_xl_sdjk</field><statement name="dropdownItems"><block type="ivw_addDropdownItem" id="+%(cxcNE=hJIV(_w5yDx"><field name="label">tcn</field><next><block type="ivw_addDropdownItem" id=":Y-+]I:f(TAdd8@:(k)P"><field name="label">dwzcn</field><next><block type="ivw_addDropdownItem" id="yIz4kg+!~?%i;,a.H0zO"><field name="label">urlcn</field><next><block type="ivw_addDropdownItem" id="P!|zaT.aY5aQG~Txet0g"><field name="label">suoim</field><next><block type="ivw_addDropdownItem" id="qBM8~7,]zHk]Q8:ExPNs"><field name="label">mrwso</field></block></next></block></next></block></next></block></next></block></statement><next><block type="ivw_addParams" id=".FE@?[=M^SzVxSZMLxO$"><field name="label">URL</field><field name="key">sd_url</field><field name="valueType">['string','number','boolean','color','array','object']</field><value name="defaultValue"><block type="text" id="2,~PZNeUp/LtVkoy22`?"><field name="TEXT"></field></block></value></block></next></block></next></block></statement><statement name="code"><block type="controls_if" id="n3a3b%|P;K/D2[xYaqs~"><mutation elseif="1"></mutation><value name="IF0"><block type="logic_compare" id="r,hdC;f?IB7w3f6KT]vh"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id=",cy#;@]olj-BkC*Y0rrH"><field name="KEY">dwz_xl</field></block></value><value name="B"><block type="text" id="!0}DW/*p|;B#8:R^`T7J"><field name="TEXT">生成</field></block></value></block></value><statement name="DO0"><block type="axios_getpost_simple" id="M`igVVJ`}+v6-cDG,Nig"><field name="MODE">get</field><value name="URL"><block type="text_join" id="I1cbY`vM,g00ck:leaci"><mutation items="4"></mutation><value name="ADD0"><block type="text" id="sEjPit`(AjYk2yZN3ftK"><field name="TEXT">https://api.uomg.com/api/long2dwz?dwzapi=</field></block></value><value name="ADD1"><block type="ivw_getparam" id="*QYy^4[N_$VX}aez*z$J"><field name="KEY">dwz_xl_sdjk</field></block></value><value name="ADD2"><block type="text" id="LsRNUCSxYnOCg$Rt0~^/"><field name="TEXT">&amp;url=</field></block></value><value name="ADD3"><block type="ivw_getparam" id="M4m?}lo7jzT[Q#vqwF|?"><field name="KEY">sd_url</field></block></value></block></value><statement name="OK"><block type="ivw_methodReturn" id="63ehEfCaklSNS|#|w#{["><value name="value"><block type="axios_response" id="$_HYP6PU~H(n;sm0p4sg"></block></value></block></statement><statement name="ERROR"><block type="widget_widgeterror" id="ETl0:G.4TbfEXxh)];EF"><value name="value"><block type="axios_error" id="`-7c]${Yb!-G-UF3.rQh"></block></value><next><block type="ivw_methodReturn" id="D_h:}%*EH|L^?%4?V#tz"><value name="value"><block type="axios_error" id="WLmR*C[eurb1U7k;peEe"></block></value></block></next></block></statement></block></statement><value name="IF1"><block type="logic_compare" id="-ep!O01`cv14gFuP[Z=S"><field name="OP">EQ</field><value name="A"><block type="ivw_getparam" id="OF=Emw*U`9sc.(tVtmD;"><field name="KEY">dwz_xl</field></block></value><value name="B"><block type="text" id="9w66EZNK#$):u=ry-{;%"><field name="TEXT">解析</field></block></value></block></value><statement name="DO1"><block type="axios_getpost_simple" id="0[%p)A(Gne0d62KzDPzu"><field name="MODE">get</field><value name="URL"><block type="text_join" id="*kThySTw1)Nxv.gNPe8q"><mutation items="2"></mutation><value name="ADD0"><block type="text" id="`CJJ~gBXpryUKM8Z1@J:"><field name="TEXT">https://api.uomg.com/api/dwz2long?url=</field></block></value><value name="ADD1"><block type="ivw_getparam" id="E|}_0T9eok$NNjwDyHeY"><field name="KEY">sd_url</field></block></value></block></value><statement name="OK"><block type="ivw_methodReturn" id="*Qz]zb2[Eagv#BG^S,5!"><value name="value"><block type="axios_response" id="2XL#7IlUcFJv|/no!U#Z"></block></value></block></statement><statement name="ERROR"><block type="widget_widgeterror" id="wmv_X}v83HJj1S]kgrlt"><value name="value"><block type="axios_error" id="w!e2]G1Dq~bt#[JP$9iL"></block></value><next><block type="ivw_methodReturn" id="}%O]^^qghR73+qCCTyp="><value name="value"><block type="axios_error" id="sZ/qq37cASt0$HR99/~M"></block></value></block></next></block></statement></block></statement></block></statement><value name="config"><block type="ivw_config" id="KgmUTEHnLx8]O;Xilg6r"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="KC:W[mFc%Cqu:C$LDwKx"><field name="COLOUR">#3366ff</field></shadow></value></block></value><next><block type="ivw_addMethod" id="PrH-3*Vrjuq0@YKB+]tz"><field name="label">获取一言</field><field name="key">get_yy</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="code"><block type="axios_getpost_simple" id="|f^b~HOM+]DyiyEPE:Fv"><field name="MODE">get</field><value name="URL"><block type="text" id="9!}0J-i7)@^Pp.1n-[k@"><field name="TEXT">http://poetry.apiopen.top/sentences</field></block></value><statement name="OK"><block type="ivw_methodReturn" id="dIi|u?Qr2?38+HxG.2F*"><value name="value"><block type="axios_response" id="Y.#MMXlp8N+UeX1k-Xbn"></block></value></block></statement><statement name="ERROR"><block type="widget_widgeterror" id="{1`H98[%eT]JtT.+eioc"><value name="value"><block type="axios_error" id="kYMTv{ks67?FKJn*yi.Z"></block></value><next><block type="ivw_methodReturn" id="I/B^Qr~{|!d*fEzaq+6h"><value name="value"><block type="axios_error" id="qN=:*)*fozkTMvx@2=:X"></block></value></block></next></block></statement></block></statement><value name="config"><block type="ivw_config" id=":JHj[YsXbpcQK*yw.N3S"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="3zhj/T1PoA@gwccu[1o4"><field name="COLOUR">#3366ff</field></shadow></value></block></value><next><block type="ivw_addMethod" id="e21vM@4O~N:Uu*(|xNk#"><field name="label">查询网站ICP备案</field><field name="key">get_icp</field><field name="valueType">['string','number','boolean','array','color','object',]</field><statement name="params"><block type="ivw_addParams" id="r/U%nBw#wp?fgU!7/w6U"><field name="label">网址</field><field name="key">get_icp_url</field><field name="valueType">'string'</field><value name="defaultValue"><block type="text" id="yeq{$OaA;!`?0BF65)X2"><field name="TEXT"></field></block></value></block></statement><statement name="code"><block type="axios_getpost_simple" id=".%m)(T$k]e7cwo=~7a0N"><field name="MODE">get</field><value name="URL"><block type="text_join" id="|or`V|]z!m}CM61`;BS|"><mutation items="2"></mutation><value name="ADD0"><block type="text" id="eHJ]qLtNzEsnW9s(86Ev"><field name="TEXT">https://api.btstu.cn/icp/api.php?domain=</field></block></value><value name="ADD1"><block type="ivw_getparam" id="uRhvDNknT]^+*F7w#aXy"><field name="KEY">get_icp_url</field></block></value></block></value><statement name="OK"><block type="ivw_methodReturn" id="UiK$/EgyW1B,9:B,nb{8"><value name="value"><block type="axios_response" id="/Z`/6h260$zR)f}!Lqr["></block></value></block></statement><statement name="ERROR"><block type="widget_widgeterror" id="{RC+YL)%Qc}vqjzo|3?C"><value name="value"><block type="axios_error" id="%kXYIwM4i_o#gQj0u]2K"></block></value><next><block type="ivw_methodReturn" id="a?XUWoxi^+de=7D%IO7c"><value name="value"><block type="axios_error" id="LW~n!5XpdKg:cp9vKaVT"></block></value></block></next></block></statement></block></statement><value name="config"><block type="ivw_config" id="=s^z?VHL$_aEfO]Vno~H"><field name="icon">无</field><field name="generateBlock">TRUE</field><field name="inputsInline">TRUE</field><field name="space">16</field><value name="color"><shadow type="colour_picker" id="}OFU+P]l@v2(N^czM(S%"><field name="COLOUR">#3366ff</field></shadow></value></block></value><next><block type="ivw_export" id="zzxnbzzxnbzzxnbzzxnb"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml></blocks><js>const utils = require('utils');
+const axios = require('axios');
+var CryptoJS = require("crypto-js");
+var document = this.document;
+var window = this.window;
+var navigator = this.navigator;
+var history = this.history;
+const types = {
+    isInvisibleWidget: true,
+    type: "COCO_WNGJX",
+    icon: "https://static.codemao.cn/appcraft/extension-widgets/production/xh-file-tool.svg",
+    title: "CoCo万能工具箱",
+    version: "1.0.0",
+    isGlobalWidget: true,
+    properties: [],
+    methods: [],
+    events: [],
+};
+
+class Widget extends InvisibleWidget {
+    constructor(props) {
+        super(props);
+          this.widgetLog('作者：谨慎的熔岩龙Ef_m');
+  this.widgetLog('作者主页：https://shequ.codemao.cn/user/493919874');
+  this.widgetLog('作者B站主页：https://space.bilibili.com/518055250');
+  console.log('欢迎使用文件工具箱！');
+  console.log('作者：谨慎的熔岩龙Ef_m');
+  console.log('作者主页：https://shequ.codemao.cn/user/493919874');
+  console.log('作者B站主页：https://space.bilibili.com/518055250');
+
+    }
+
+}
+
+types['methods'].push({
+    key: 'hqck',
+    label: '获取窗口',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqck = function () {
+      return (window);
+}
+types['methods'].push({
+    key: 'hqwd',
+    label: '获取文档',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqwd = function () {
+      return (document);
+}
+types['methods'].push({
+    key: 'hqllq',
+    label: '获取浏览器',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqllq = function () {
+      return (navigator);
+}
+types['methods'].push({
+    key: 'hqlsjl',
+    label: '获取历史记录',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqlsjl = function () {
+      return (history);
+}
+types['methods'].push({
+    key: 'hqpmkd_gd',
+    label: '获取屏幕',
+    params: [
+      {
+          key: 'xlk_kd_gd_pm',
+          label: '',
+          valueType: 'string',
+          dropdown: [
+    { label: '宽度', value: '宽度', },
+
+    { label: '高度', value: '高度', },
+  ],
+      },
+
+],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqpmkd_gd = function (xlk_kd_gd_pm,) {
+      if (xlk_kd_gd_pm == '宽度') {
+    return (screen.width);} else if (xlk_kd_gd_pm == '高度') {
+    return (screen.height);}
+
+}
+types['methods'].push({
+    key: 'hqpmkd_gd_ky',
+    label: '获取屏幕可用',
+    params: [
+      {
+          key: 'xlk_kd_gd_pm_ky',
+          label: '',
+          valueType: 'string',
+          dropdown: [
+    { label: '宽度', value: '宽度', },
+
+    { label: '高度', value: '高度', },
+  ],
+      },
+
+],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqpmkd_gd_ky = function (xlk_kd_gd_pm_ky,) {
+      if (xlk_kd_gd_pm_ky == '宽度') {
+    return (screen.availWidth);} else if (xlk_kd_gd_pm_ky == '高度') {
+    return (screen.availHeight);}
+
+}
+types['methods'].push({
+    key: 'hqpmss',
+    label: '获取屏幕色深',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqpmss = function () {
+      return (screen.colorDepth);
+}
+types['methods'].push({
+    key: 'hqpmxssd',
+    label: '获取屏幕像素深度',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.hqpmxssd = function () {
+      return (screen.pixelDepth);
+}
+types['methods'].push({
+    key: 'pdsfywl',
+    label: '判断是否有网络',
+    params: [],
+    valueType: 'boolean',
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.pdsfywl = function () {
+      if (navigator.onLine) {
+    return true;} else {
+    return false;}
+
+}
+types['methods'].push({
+    key: 'get_llqyy',
+    label: '获取浏览器语言',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.get_llqyy = function () {
+      return (navigator.language);
+}
+types['methods'].push({
+    key: 'get_sys',
+    label: '获取当前操作系统',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.get_sys = function () {
+      return (navigator.platform);
+}
+types['methods'].push({
+    key: 'get_url',
+    label: '获取当前界面',
+    params: [
+      {
+          key: 'xlq_get_url',
+          label: '',
+          valueType: 'string',
+          dropdown: [
+    { label: 'URL', value: 'URL', },
+
+    { label: 'URL路径名', value: 'URL路径名', },
+
+    { label: '主机域名', value: '主机域名', },
+
+    { label: '主机端口', value: '主机端口', },
+  ],
+      },
+
+],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.get_url = function (xlq_get_url,) {
+      if (xlq_get_url == 'URL') {
+    return (window.location.href);} else if (xlq_get_url == 'URL路径名') {
+    return (window.location.pathname);} else if (xlq_get_url == '主机域名') {
+    return (window.location.hostname);} else if (xlq_get_url == '主机端口') {
+    return (window.location.port);}
+
+}
+types['methods'].push({
+    key: 'get_sj',
+    label: '获取当前',
+    params: [
+      {
+          key: 'xlk_get_sj',
+          label: '',
+          valueType: 'string',
+          dropdown: [
+    { label: '时间戳', value: '时间戳', },
+
+    { label: '年份', value: '年份', },
+
+    { label: '月份', value: '月份', },
+
+    { label: '日', value: '日', },
+
+    { label: '小时', value: '小时', },
+
+    { label: '分钟', value: '分钟', },
+
+    { label: '秒数', value: '秒数', },
+
+    { label: '毫秒数', value: '毫秒数', },
+
+    { label: '星期', value: '星期', },
+  ],
+      },
+
+],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ffbb55',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 50,
+},
+})
+Widget.prototype.get_sj = function (xlk_get_sj,) {
+      if (xlk_get_sj == '时间戳') {
+    return (new Date().getTime());} else if (xlk_get_sj == '年份') {
+    return (new Date().getFullYear());} else if (xlk_get_sj == '月份') {
+    return (new Date().getMonth());} else if (xlk_get_sj == '日') {
+    return (new Date().getDate());} else if (xlk_get_sj == '小时') {
+    return (new Date().getHours());} else if (xlk_get_sj == '分钟') {
+    return (new Date().getMinutes());} else if (xlk_get_sj == '秒数') {
+    return (new Date().getSeconds());} else if (xlk_get_sj == '毫秒数') {
+    return (new Date().getMilliseconds());} else if (xlk_get_sj == '星期') {
+    return (new Date().getDay());}
+
+}
+types['methods'].push({
+    key: 'md5_zfc',
+    label: '生成哈希MD5字符串',
+    params: [
+      {
+          key: 'sq_hx_md5_wbk',
+          label: '文本',
+          valueType: 'string',
+          defaultValue: '万能工具箱',
+      },],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ff6600',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.md5_zfc = function (sq_hx_md5_wbk,) {
+      return (CryptoJS.MD5(sq_hx_md5_wbk).toString());
+}
+types['methods'].push({
+    key: 'sha_1',
+    label: '生成哈希SHA-1字符串',
+    params: [
+      {
+          key: 'sq_hx_sha_1_wbk',
+          label: '文本',
+          valueType: 'string',
+          defaultValue: '万能工具箱',
+      },],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ff6600',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.sha_1 = function (sq_hx_sha_1_wbk,) {
+      return (CryptoJS.SHA1(sq_hx_sha_1_wbk).toString());
+}
+types['methods'].push({
+    key: 'sha_265',
+    label: '生成哈希SHA-265字符串',
+    params: [
+      {
+          key: 'sq_hx_sha_265_wbk',
+          label: '文本',
+          valueType: 'string',
+          defaultValue: '万能工具箱',
+      },],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#ff6600',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 50,
+},
+})
+Widget.prototype.sha_265 = function (sq_hx_sha_265_wbk,) {
+      return (CryptoJS.SHA256(sq_hx_sha_265_wbk).toString());
+}
+types['methods'].push({
+    key: 'dwz',
+    label: '短网站',
+    params: [
+      {
+          key: 'dwz_xl',
+          label: '',
+          valueType: 'string',
+          dropdown: [
+    { label: '生成', value: '生成', },
+
+    { label: '解析', value: '解析', },
+  ],
+      },
+
+
+      {
+          key: 'dwz_xl_sdjk',
+          label: '缩短接口',
+          valueType: 'string',
+          dropdown: [
+    { label: 'tcn', value: 'tcn', },
+
+    { label: 'dwzcn', value: 'dwzcn', },
+
+    { label: 'urlcn', value: 'urlcn', },
+
+    { label: 'suoim', value: 'suoim', },
+
+    { label: 'mrwso', value: 'mrwso', },
+  ],
+      },
+
+
+      {
+          key: 'sd_url',
+          label: 'URL',
+          valueType: ['string','number','boolean','color','array','object'],
+          defaultValue: '',
+      },],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#3366ff',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.dwz = function (dwz_xl,dwz_xl_sdjk,sd_url,) {
+      if (dwz_xl == '生成') {
+    axios.get((['https://api.uomg.com/api/long2dwz?dwzapi=',dwz_xl_sdjk,'&url=',sd_url].join('')))
+      .then((response) => {
+        return (response);
+      })
+      .catch((error) => {
+        this.widgetError((error));
+      return (error);
+      });
+  } else if (dwz_xl == '解析') {
+    axios.get(('https://api.uomg.com/api/dwz2long?url=' + String(sd_url)))
+      .then((response) => {
+        return (response);
+      })
+      .catch((error) => {
+        this.widgetError((error));
+      return (error);
+      });
+  }
+
+}
+types['methods'].push({
+    key: 'get_yy',
+    label: '获取一言',
+    params: [],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#3366ff',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.get_yy = function () {
+      axios.get('http://poetry.apiopen.top/sentences')
+    .then((response) => {
+      return (response);
+    })
+    .catch((error) => {
+      this.widgetError((error));
+    return (error);
+    });
+
+}
+types['methods'].push({
+    key: 'get_icp',
+    label: '查询网站ICP备案',
+    params: [
+      {
+          key: 'get_icp_url',
+          label: '网址',
+          valueType: 'string',
+          defaultValue: '',
+      },],
+    valueType: ['string','number','boolean','array','color','object',],
+    blockOptions: {
+    color: '#3366ff',
+    icon: '无',
+    generateBlock: true,
+    inputsInline: true,
+    space: 16,
+},
+})
+Widget.prototype.get_icp = function (get_icp_url,) {
+      axios.get(('https://api.btstu.cn/icp/api.php?domain=' + String(get_icp_url)))
+    .then((response) => {
+      return (response);
+    })
+    .catch((error) => {
+      this.widgetError((error));
+    return (error);
+    });
+
+}
+exports.types = types;
+exports.widget = Widget;
+</js></body></root>
